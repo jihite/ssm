@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jihite</groupId>
 	<artifactId>ssm</artifactId>
-	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>ssm Maven Webapp</name>
 	<url>https://github.com/jihite/ssm</url>
 
@@ -144,6 +144,13 @@
 			<groupId>commons-collections</groupId>
 			<artifactId>commons-collections</artifactId>
 			<version>3.2</version>
+		</dependency>
+
+		<!--需要引入 lombok 插件 -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.14.4</version>
 		</dependency>
 	</dependencies>
 	<build>
