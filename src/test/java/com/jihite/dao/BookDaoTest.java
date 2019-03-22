@@ -18,6 +18,9 @@ public class BookDaoTest extends BaseTest {
 		long bookId = 1000;
 		Book book = bookDao.queryById(bookId);
 		System.out.println(book);
+
+		Book book2 = bookDao.queryById(bookId);
+		System.out.println(book2);
 	}
 
 	@Test
